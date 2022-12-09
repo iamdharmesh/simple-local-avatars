@@ -15,6 +15,6 @@ describe('Check if admin can delete avatar', () => {
             }
         });
 
-        cy.get('#simple-local-avatar-remove').should('not.be.visible');
+        cy.get('#simple-local-avatar-remove').should('be.visible');
     });
 });
